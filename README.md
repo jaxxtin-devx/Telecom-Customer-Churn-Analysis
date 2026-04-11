@@ -1,50 +1,48 @@
 # Telecom Customer Churn Analysis & Retention Strategy
 
-**End-to-End Exploratory Data Analysis (EDA) on Telecom Customer Churn**
+**End-to-End Exploratory Data Analysis (EDA)** on Telecom Customer Churn for Retention Strategy
 
----
+![Churn Banner](https://via.placeholder.com/800x150/3498db/ffffff?text=Telecom+Customer+Churn+Analysis)
 
 ### 📋 Problem Statement
-A telecommunications company is experiencing high customer churn, leading to major revenue loss. The goal of this project is to identify the key factors causing customers to leave and provide actionable retention strategies.
+A leading telecom company is facing high customer churn, resulting in significant revenue loss. This project aims to identify key churn drivers and provide actionable retention strategies.
 
 ### 🎯 Business Objective
-- Find the main drivers of customer churn
+- Understand major factors causing customer churn
 - Identify high-risk customers
-- Give data-driven recommendations to reduce churn
+- Deliver data-driven recommendations to reduce churn
 
 ### 🛠️ Tools & Technologies
-- Python
-- Pandas (Data Cleaning & Analysis)
-- NumPy
-- Seaborn & Matplotlib (Visualizations)
-- Google Colab / Jupyter Notebook
+- **Python** | **Pandas** | **NumPy** | **Seaborn** | **Matplotlib**
+- Google Colab
 
 ### 🔥 Key Insights
+- Month-to-month contracts have **~42.7%** churn rate
+- 2-year contracts have only **~2.8%** churn rate
+- Fiber Optic users churn more than DSL
+- New customers (0-12 months) have very high churn
+- Tech Support, Online Security & Online Backup significantly reduce churn
 
-- Month-to-month contract customers have **~42.7%** churn rate (very high)
-- 2-year contract customers have only **~2.8%** churn rate
-- Fiber Optic internet users show significantly higher churn
-- Electronic Check payment method has the highest churn
-- New customers (0-12 months tenure) churn at a very high rate
-- Customers with Tech Support, Online Security, or Online Backup have much lower churn
+### 📊 Important Visualizations
 
-### 📁 Project Structure
-
-### 📈 Important Visualizations
-- Churn Rate by Contract Type
-- Churn Rate by Internet Service
-- Churn Rate by Tenure Group
-- Monthly Charges vs Churn
-- Impact of Additional Services (Tech Support, Security, etc.)
+![Churn by Contract](plots/1_churn_by_contract.png)
+![Churn by Internet](plots/2_churn_by_internet.png)
+![Churn by Tenure Group](plots/3_churn_by_tenure_group.png)
+![Protective Services](plots/4_protective_services.png)
 
 ### 💡 Business Recommendations
-1. Focus on converting Month-to-Month customers to yearly contracts with offers
-2. Review and improve Fiber Optic service quality/pricing
-3. Give special attention and offers to new customers (first 12 months)
-4. Promote bundles with Tech Support and Online Security
-5. Encourage customers to switch from Electronic Check to better payment methods
+1. Convert Month-to-Month customers to annual contracts with discounts
+2. Review Fiber Optic pricing and service quality
+3. Focus retention efforts on new customers (first 12 months)
+4. Promote Tech Support and Security add-ons
+5. Incentivize better payment methods (avoid Electronic Check)
+
+### 📁 Project Structure
+- `Telecom_Customer_Churn_Analysis.ipynb` → Main Analysis Notebook
+- `plots/` → All visualizations
+- `WA_Fn-UseC_-Telco-Customer-Churn.csv` → Dataset
 
 ---
 
 **Made for Data Analyst Portfolio**  
-Analyzed using Python | 7043 customer records
+Analyzed 7043 customer records using Python
