@@ -2,8 +2,6 @@
 
 **End-to-End Exploratory Data Analysis (EDA)** on Telecom Customer Churn for Retention Strategy
 
-![Churn Banner](https://via.placeholder.com/800x150/3498db/ffffff?text=Telecom+Customer+Churn+Analysis)
-
 ### 📋 Problem Statement
 A leading telecom company is facing high customer churn, resulting in significant revenue loss. This project aims to identify key churn drivers and provide actionable retention strategies.
 
